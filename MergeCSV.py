@@ -2,13 +2,13 @@
 """
 Created on Sun Jan 31 09:21:35 2021
 
-@author: mehdi
+@author: Mahdi Deramgozin
 """
 
 import os
 import glob
 import pandas as pd
-os.chdir("D:/XAI/DB/DISFA/CSV/DISFA_CSV_256/")
+os.chdir("CSV's folder address")
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 #combine all files in the list
