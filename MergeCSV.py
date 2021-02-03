@@ -8,7 +8,7 @@ Created on Sun Jan 31 09:21:35 2021
 import os
 import glob
 import pandas as pd
-os.chdir("CSV's folder address")
+os.chdir("CSV's folder address") # Enter the address of your CSVs
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 #combine all files in the list
